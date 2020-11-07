@@ -1,4 +1,4 @@
-import 'package:dash_book/DashbookChapters.dart';
+import 'package:dash_book/dashbook/DashbookChapters.dart';
 import 'package:dashbook/dashbook.dart';
 import 'package:dashbook/decorator.dart';
 import 'package:dashbook/widget.dart';

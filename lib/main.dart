@@ -1,11 +1,11 @@
-import 'package:dash_book/DashbookManager.dart';
-import 'package:dash_book/StorybookStories.dart';
+import 'package:dash_book/dashbook/DashbookManager.dart';
+import 'package:dash_book/storybook/StorybookStories.dart';
 import 'package:dashbook/story.dart' as dash;
 import 'package:flutter/material.dart';
 import 'package:storybook_flutter/storybook_flutter.dart';
 
-import 'DashbookChapters.dart';
-import 'StorybookStories.dart';
+import 'dashbook/DashbookChapters.dart';
+import 'storybook/StorybookStories.dart';
 
 void main() {
   runApp(MyApp());
