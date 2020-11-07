@@ -1,0 +1,32 @@
+name: dash_book
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  dashbook: ^0.0.9
+  storybook_flutter: ^0.1.5
+  
+  #preview: ^0.0.8
+
+  flutter_form_builder:
+    git:
+      url: https://github.com/knaeckeKami/flutter_form_builder.git
+      ref: v3.14.0-alpha.2-fix
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
