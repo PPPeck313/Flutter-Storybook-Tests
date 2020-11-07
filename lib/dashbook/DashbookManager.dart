@@ -7,13 +7,13 @@ import 'package:flutter/widgets.dart';
 class DashbookManager {
 
   //============================================================================
-  // Class Instance Static Fields
+  // Static Fields
   //============================================================================
 
   static DashbookManager _instance;
 
   //============================================================================
-  // Class Instance Fields
+  // Fields
   //============================================================================
 
   Dashbook dashBook;
@@ -36,7 +36,7 @@ class DashbookManager {
   }
 
   //============================================================================
-  // Constructors
+  // Instance Methods
   //============================================================================
 
   Story addStory(String storyName) {

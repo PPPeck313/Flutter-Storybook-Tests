@@ -1,3 +1,4 @@
+import 'package:dash_book/RetainedTab.dart';
 import 'package:dash_book/dashbook/DashbookManager.dart';
 import 'package:dash_book/storybook/StorybookStories.dart';
 import 'package:dashbook/story.dart' as dash;
@@ -12,6 +13,10 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
+  //============================================================================
+  // Lifecycle Methods
+  //============================================================================
 
   @override
   Widget build(BuildContext context) {
@@ -31,9 +36,17 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      home: makeTopTabScreen(context, [storybook, dashbookManager.dashBook])
+      home: makeTopTabScreen(context, [
+            RetainedTab(storybook),
+            RetainedTab(dashbookManager.dashBook)
+          ]
+      )
     );
   }
+
+  //============================================================================
+  // Widget Methods
+  //============================================================================
 
   Widget makeTopTabScreen(BuildContext context, List<Widget> tabs) {
     return DefaultTabController(
