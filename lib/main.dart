@@ -36,11 +36,15 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      home: makeTopTabScreen(context, [
-            RetainedTab(storybook),
-            RetainedTab(dashbookManager.dashBook)
+        home: makeTopTabScreen(context, [
+            RetainedTab(dashbookManager.dashBook),
+            RetainedTab(storybook)
           ]
-      )
+        ),
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+        )
     );
   }
 
@@ -75,8 +79,8 @@ class MyApp extends StatelessWidget {
   Widget makeTabBar() {
     return TabBar(
         tabs: [
-          Tab(icon: Icon(Icons.book), text: "Storybook"),
-          Tab(icon: Icon(Icons.book), text: "Dashbook")
+          Tab(icon: Icon(Icons.book), text: "Dashbook"),
+          Tab(icon: Icon(Icons.book), text: "Storybook")
         ]
     );
   }
