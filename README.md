@@ -10,11 +10,11 @@ Storybook: https://pub.dev/packages/storybook_flutter<br/>
 ### Dashbook
 
 <p align="center">
-<img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_stories.png" width="200"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_chapter.png" width="200"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_chapter_properties.png" width="200">
+<img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_stories.png" width="250"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_chapter.png" width="250"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_dashbook_chapter_properties.png" width="250">
 </p>
 
 ### Storybook
 
 <p align="center">
-<img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_storybook_stories.png" width="200"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_storybook_story_properties.png" width="200">
+<img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_storybook_stories.png" width="250"> <img src="https://github.com/PPPeck313/Storybook-Tests/blob/master/assets/demo_storybook_story_properties.png" width="250">
 </p>
